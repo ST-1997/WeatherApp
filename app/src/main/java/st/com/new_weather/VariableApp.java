@@ -9,7 +9,7 @@ public class VariableApp extends Application {
     private static String head1 = "https://free-api.heweather.net/s6/weather?location=";
     private static String head2 = "https://free-api.heweather.net/s6/air/now?location=";
     private static String key = "&key=d6cfdce8193445ba894d889e7ab2de5b";
-    private static String location = "南京";
+    private static String location = "扬州";
 
 
     public static VariableApp getInstance(){
@@ -23,7 +23,7 @@ public class VariableApp extends Application {
         head1 = "https://free-api.heweather.net/s6/weather?location=";
         head2 = "https://free-api.heweather.net/s6/air/now?location=";
         key = "&key=d6cfdce8193445ba894d889e7ab2de5b";
-        location = "江都";
+        location = "南京";
         Log.e("variable", location);
     }
 
